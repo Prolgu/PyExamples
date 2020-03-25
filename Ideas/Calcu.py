@@ -1,5 +1,10 @@
-#!/usr/bin/env phyton3
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+#
+#  Menu.py
+#
+#  Copyright 2020  Pr0LgU <https://github.com/Prolgu>
+#
 import os, sys
 
 def menuCalc():
@@ -12,7 +17,7 @@ def menuCalc():
     print("\t4 - Division")
     print("\tq - Para salir")
     
-def calculadora(calcu):
+def calculadora(calcu,):
 	if calcu == "1":
 		os.system('clear')
 		s1=int(input("Ingrese un numero\n"))

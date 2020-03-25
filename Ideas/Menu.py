@@ -3,7 +3,7 @@
 #
 #  Menu.py
 #
-#  Copyright 2020  Pr0LgU<https://github.com/Prolgu>
+#  Copyright 2020  Pr0LgU <https://github.com/Prolgu>
 #
 
 import os, sys
@@ -29,8 +29,7 @@ def opMenu(a):
         print("Esta es la opcion tres")
         input("\nPresiona una tecla para continuar.")
     elif a=="4":
-        print("Gracias, Vuelva Prontosss.")
-        exit()
+        exit("Gracias, Vuelva Prontosss.")
     elif a=="q":
         exit("Gracias, Vuelva prontosss")
     else:
