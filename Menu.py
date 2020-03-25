@@ -32,7 +32,7 @@ def opMenu(a):
         print("Gracias, Vuelva Prontosss.")
         exit()
     elif a=="q":
-        sys.exit("Gracias, Vuelva prontosss")
+        exit("Gracias, Vuelva prontosss")
     else:
         print("")
         input("Ingresa algo del menu.\n")
