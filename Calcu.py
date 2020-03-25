@@ -43,7 +43,7 @@ def calculadora(calcu):
 		input("\nPresione una tecla para continuar.")
 	elif calcu == "q":
 		print("Gracias, Vuelva Prontoss")
-		sys.exit()
+		exit()
 	else:
 		os.system('clear')
 		print("Lo siento no es un numero valido!")
