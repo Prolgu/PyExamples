@@ -3,7 +3,7 @@
 #
 #  Menu.py
 #
-#  Copyright 2020  Pr0LgU <https://github.com/Prolgu>
+#   2020  Pr0LgU <https://github.com/Prolgu>
 #
 import os, sys
 
