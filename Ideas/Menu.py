@@ -7,6 +7,7 @@
 #
 
 import os, sys
+salir = False
 
 def menu():
 
@@ -17,8 +18,11 @@ def menu():
     print("\t3 - Tercera opcion")
     print("\tq - Para salir")
 
+while not salir:
 
-def opMenu(a):
+    menu()
+    
+    a = input("Inserta un valor >> ")
     if a=="1":
         print("Esta es la opcion uno")
         input("\nPresiona una tecla para continuar.")
@@ -29,16 +33,22 @@ def opMenu(a):
         print("Esta es la opcion tres")
         input("\nPresiona una tecla para continuar.")
     elif a=="4":
-        exit("Gracias, Vuelva Prontosss.")
+        print("Gracias, Vuelva Prontosss.")
+        salir = True
     elif a=="q":
-        exit("Gracias, Vuelva prontosss")
+        salida = False
+        while not salida:
+            os.system('clear')
+            b = input("Desea salir?\n1 - Si.\n2 - No.\n")
+            if b=="1":
+                salir1 = True
+            elif b=="2":
+                os.system('clear')
+                salida = True
+            else:
+                print("")
+                input("Ingresa algo del menu.\n")   
     else:
         print("")
         input("Ingresa algo del menu.\n")
-
-while True:
-
-    menu()
-    opcionMenu = input("Inserta un valor >> ")
-    opMenu(opcionMenu)
 
