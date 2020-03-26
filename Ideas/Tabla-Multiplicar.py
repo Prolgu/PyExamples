@@ -6,18 +6,18 @@
 #  2020  Pr0LgU <https://github.com/Prolgu>
 #
 
-lista = []
+listado = []
 
-salir = False
+salida = False
 
-while not salir:
+while not salida:
     numero = int(input("Introduzca un numero: "))
     if numero != 0:
-        lista.clear()
+        listado.clear()
         for i in range(0, 11):
             resultado = i * numero
-            lista.append(resultado)
-        print(lista)
+            listado.append(resultado)
+        print(listado)
     else:
         print("Adios")
-        salir = True
+        salida = True
