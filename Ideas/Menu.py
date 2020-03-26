@@ -21,6 +21,7 @@
 #  MA 02110-1301, USA.
 #  
 # 
+
 import os, sys
 salir = False
 
@@ -32,6 +33,7 @@ def menu():
     print("\t2 - Segunda opcion")
     print("\t3 - Tercera opcion")
     print("\tq - Para salir")
+    return
 
 while not salir:
 
@@ -56,10 +58,13 @@ while not salir:
             os.system('clear')
             b = input("Desea salir?\n1 - Si.\n2 - No.\n")
             if b=="1":
-                salir1 = True
+                salir = True
+                os.system('clear')
+                break
             elif b=="2":
                 os.system('clear')
                 salida = True
+                
             else:
                 print("")
                 input("Ingresa algo del menu.\n")   
