@@ -1,12 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #
-<<<<<<< HEAD
-#  Menu.py
-#
-#  2020  Pr0LgU <https://github.com/Prolgu>
-#
-=======
 #  Tabla-Multiplicar.py
 #  
 #  2020 Pr0LgU <https://github.com/Prolgu>
@@ -27,7 +21,6 @@
 #  MA 02110-1301, USA.
 #  
 # 
->>>>>>> c2ae83f1dd54fdc3632f52bfb7619277c5a71738
 
 listado = []
 

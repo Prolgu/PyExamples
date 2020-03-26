@@ -1,12 +1,4 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-#
-#  Menu.py
-<<<<<<< HEAD
-#
-#  2020  Pr0LgU <https://github.com/Prolgu>
-#
-=======
+
 #  
 #  2020 Pr0LgU <https://github.com/Prolgu>
 #  
@@ -26,7 +18,6 @@
 #  MA 02110-1301, USA.
 #  
 # 
->>>>>>> c2ae83f1dd54fdc3632f52bfb7619277c5a71738
 
 import os, sys
 salir = False

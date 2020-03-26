@@ -1,12 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #
-<<<<<<< HEAD
-#  Menu.py
-#
-#  2020  Pr0LgU <https://github.com/Prolgu>
-#
-=======
 #  Prueba-For.py
 #  
 #  2020 Pr0LgU <https://github.com/Prolgu>
@@ -27,7 +21,6 @@
 #  MA 02110-1301, USA.
 #  
 # 
->>>>>>> c2ae83f1dd54fdc3632f52bfb7619277c5a71738
 print("Comienzo")
 for i in range(10):
     print(f"{i} * {i} = {i**2} ")

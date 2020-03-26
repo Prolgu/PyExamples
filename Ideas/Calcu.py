@@ -1,12 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #
-<<<<<<< HEAD
-#  Menu.py
-#
-#   2020  Pr0LgU <https://github.com/Prolgu>
-#
-=======
 #  Calcu.py
 #  
 #  Pr0LgU <https://github.com/Prolgu>
@@ -28,7 +22,6 @@
 #  
 # 
 
->>>>>>> c2ae83f1dd54fdc3632f52bfb7619277c5a71738
 import os, sys
 
 def menuCalc():
