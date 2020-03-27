@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #
-#  Tabla-Multiplicar.py
+#  Calculos.py
 #  
 #  2020 Pr0LgU <https://github.com/Prolgu>
 #  
@@ -20,20 +20,19 @@
 #  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
 #  MA 02110-1301, USA.
 #  
-# 
+# Pide tres valores y devuelve la suma del primero mas el segundo
+# y a eso lo multiplica por el tercero
 
-listado = []
 
-salida = False
+import os
 
-while not salida:
-    numero = int(input("Introduzca un numero: "))
-    if numero != 0:
-        listado.clear()
-        for i in range(0, 11):
-            resultado = i * numero
-            listado.append(resultado)
-        print(listado)
-    else:
-        print("Adios")
-        salida = True
+os.system('clear')
+input("Escriba tres numeros. ")
+os.system('clear')
+a=int(input("Ingrese el primero: "))
+b=int(input("Ingrese el segundo: "))
+c=int(input("Ingrese el tercero: "))
+
+print(f"El resultado es {(a+b)*c} ")
+
+

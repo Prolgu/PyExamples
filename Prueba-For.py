@@ -21,7 +21,12 @@
 #  MA 02110-1301, USA.
 #  
 # 
+import os
+valor={1,2,3,4,5}
+os.system('clear')
 print("Comienzo")
-for i in range(10):
-    print(f"{i} * {i} = {i**2} ")
-print(f"Final, numero vale: {i} ")
+for i in valor:
+    i =input(f"Ingrese un numero: ")
+    print(f"Escribiste: {i} ")
+os.system('clear')
+print("Gracias, vuelva prontoss.")

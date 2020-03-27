@@ -1,3 +1,7 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+#
+#  Diccionario-For.py
 #  
 #  2020 Pr0LgU <https://github.com/Prolgu>
 #  
@@ -17,38 +21,43 @@
 #  MA 02110-1301, USA.
 #  
 # 
-
 import os
-salir = False
-def menu():
 
+salir = False
+dic={'1': 'Uno', '2': 'Dos', '3': 'Tres', '4': 'Cuatro'}#defino mi diccionario
+
+def menu():
     os.system('clear')
     print("Esto parece un menu:")
-    print("\t1 - Primera opcion")
-    print("\t2 - Segunda opcion")
-    print("\t3 - Tercera opcion")
+    print("\t1 - Ingresar valores")
+    print("\t2 - Leer valores")
     print("\tq - Para salir")
-    return
+    
+def ingreso():
+    os.system('clear')              #limpio
+    for key in dic.keys():          #Bucle de ingreso
+        dic[key]=input("ingresa: ") #repito hasta ingresar un dato  por cada entrada del diccionario
+
+def imprimo():
+    os.system('clear')              #limpio
+    print("Ingresaste estos valores:")
+    for key in dic.keys():          #bucle de impresion
+        print(key, "->",dic[key])   #Imprimo 
+        
 
 while not salir:
-
     menu()
-    
+
     a = input("Inserta un valor >> ")
     if a=="1":
-        print("Esta es la opcion uno")
+        ingreso()
         input("\nPresiona una tecla para continuar.")
     elif a=="2":
-        print("Esta es la opcion dos")
+        imprimo()
         input("\nPresiona una tecla para continuar.")
-    elif a=="3":
-        print("Esta es la opcion tres")
-        input("\nPresiona una tecla para continuar.")
-    elif a=="4":
-        print("Gracias, Vuelva Prontosss.")
         salir = True
     elif a=="q":
-        salida=False
+        salida = False
         while not salida:
             os.system('clear')
             b = input("Desea salir?\n1 - Si.\n2 - No.\n")
@@ -59,10 +68,9 @@ while not salir:
             elif b=="2":
                 os.system('clear')
                 salida = True
-                
             else:
                 print("")
-                input("Ingresa algo del menu.\n")   
+                input("Ingresa algo del menu.")   
     else:
         print("")
         input("Ingresa algo del menu.\n")
