@@ -23,7 +23,6 @@
 # Pide tres valores y devuelve la suma del primero mas el segundo
 # y a eso lo multiplica por el tercero
 
-
 import os
 
 os.system('clear')

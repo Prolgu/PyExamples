@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #
-#  Diccionario-For.py
+#  Diccionario-For_menu.py
 #  
 #  2020 Pr0LgU <https://github.com/Prolgu>
 #  
