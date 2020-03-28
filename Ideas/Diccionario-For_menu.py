@@ -24,9 +24,9 @@
 import os
 
 salir = False
-dic={'1': 'Uno', '2': 'Dos', '3': 'Tres', '4': 'Cuatro'}#defino mi diccionario
+dic={'1': '0', '2': '0', '3': '0', '4': '0'}#defino mi diccionario
 
-def menu():
+def menu():                         #mi memu principal
     os.system('clear')
     print("Esto parece un menu:")
     print("\t1 - Ingresar valores")
@@ -36,7 +36,7 @@ def menu():
 def ingreso():
     os.system('clear')              #limpio
     for key in dic.keys():          #Bucle de ingreso
-        dic[key]=input("ingresa: ") #repito hasta ingresar un dato  por cada entrada del diccionario
+        dic[key]=input(f"Valor[{key}]: ") #repito hasta ingresar un dato  por cada entrada del diccionario
 
 def imprimo():
     os.system('clear')              #limpio
@@ -44,6 +44,7 @@ def imprimo():
     for key in dic.keys():          #bucle de impresion
         print(key, "->",dic[key])   #Imprimo 
         
+#def menu_salida():
 
 while not salir:
     menu()
@@ -55,7 +56,6 @@ while not salir:
     elif a=="2":
         imprimo()
         input("\nPresiona una tecla para continuar.")
-        salir = True
     elif a=="q":
         salida = False
         while not salida:
@@ -70,7 +70,7 @@ while not salir:
                 salida = True
             else:
                 print("")
-                input("Ingresa algo del menu.")   
+                input("Ingresa algo del menu.")
     else:
         print("")
         input("Ingresa algo del menu.\n")
